@@ -1,5 +1,5 @@
 [project]
-name = "demo02-valider-email-sans-regex"
+name = "ex07-email-python"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = []

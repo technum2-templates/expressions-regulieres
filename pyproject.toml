@@ -21,4 +21,8 @@ indent-style = "space"
 members = [
     "demo01_valider_email_avec_regex",
     "demo02_valider_email_sans_regex",
+    "ex05_telephone_python",
+    "ex06_codes_produits_python",
+    "ex07_email_python",
+    "ex08_logs_python",
 ]

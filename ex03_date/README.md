@@ -11,8 +11,8 @@ Construire un pattern regex qui matche une date au format `DD/MM/YYYY`.
 ## Instructions
 
 1. Ouvrez [regex101.com](https://regex101.com) et sélectionnez le flavour **Python**
-2. Collez le texte de test ci-dessous dans la zone *Test String*
-3. Construisez votre pattern dans le champ *Regular Expression*
+2. Collez le texte de test ci-dessous dans la zone _Test String_
+3. Construisez votre pattern dans le champ _Regular Expression_
 4. Vérifiez que seules les dates valides sont matchées
 
 ## Texte de test
@@ -36,7 +36,7 @@ bonjour
 
 ## Indices
 
-- Jour : 2 chiffres → `\d{2}`
+- Jour : 2 chiffres --> `\d{2}`
 - Séparateur `/` : caractère littéral (pas besoin de l'échapper en Python)
 - Mois : 2 chiffres
 - Année : 4 chiffres
