@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.detectIndentation": false,
+    "editor.guides.bracketPairs": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "python.analysis.ignore": [
+        "*"
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.languageServer": "Pylance",
+    "python.useEnvironmentsExtension": true,
+    "python-envs.alwaysUseUv": true,
+    "telemetry.telemetryLevel": "off"
+}
