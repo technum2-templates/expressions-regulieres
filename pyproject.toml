@@ -1,0 +1,18 @@
+[project]
+name = "expressions-regulieres"
+version = "0.1.0"
+description = "Exercices pour apprendre les expressions régulières"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+ignore = [ "F401" ]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
