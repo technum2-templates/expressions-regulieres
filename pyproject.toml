@@ -19,8 +19,8 @@ indent-style = "space"
 
 [tool.uv.workspace]
 members = [
-    "demo01_valider_email_avec_regex",
-    "demo02_valider_email_sans_regex",
+    "demo01_valider_email_sans_regex",
+    "demo02_re_python",
     "ex05_telephone_python",
     "ex06_codes_produits_python",
     "ex07_email_python",

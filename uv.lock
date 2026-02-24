@@ -4,12 +4,24 @@ requires-python = ">=3.13"
 
 [manifest]
 members = [
+    "demo01-valider-email-sans-regex",
+    "demo02-re-python",
     "ex05-telephone-python",
     "ex06-codes-produits-python",
     "ex07-email-python",
     "ex08-logs-python",
     "expressions-regulieres",
 ]
+
+[[package]]
+name = "demo01-valider-email-sans-regex"
+version = "0.1.0"
+source = { virtual = "demo01_valider_email_sans_regex" }
+
+[[package]]
+name = "demo02-re-python"
+version = "0.1.0"
+source = { virtual = "demo02_re_python" }
 
 [[package]]
 name = "ex05-telephone-python"
