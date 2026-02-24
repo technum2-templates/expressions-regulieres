@@ -1,0 +1,25 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "demo01-valider-email-avec-regex",
+    "demo02-valider-email-sans-regex",
+    "expressions-regulieres",
+]
+
+[[package]]
+name = "demo01-valider-email-avec-regex"
+version = "0.1.0"
+source = { virtual = "demo01_valider_email_avec_regex" }
+
+[[package]]
+name = "demo02-valider-email-sans-regex"
+version = "0.1.0"
+source = { virtual = "demo02_valider_email_sans_regex" }
+
+[[package]]
+name = "expressions-regulieres"
+version = "0.1.0"
+source = { virtual = "." }

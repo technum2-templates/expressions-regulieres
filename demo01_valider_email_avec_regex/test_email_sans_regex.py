@@ -1,8 +1,3 @@
-# /// script
-# requires-python = ">=3.13"
-# dependencies = []
-# ///
-
 import unittest
 from email_sans_regex import est_email_valide
 
