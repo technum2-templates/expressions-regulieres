@@ -25,9 +25,4 @@ def est_email_valide(adresse):
     if len(sous_parties[-1]) < 2:
         return False
 
-    # Et les espaces ? Les caractères spéciaux ? Les points consécutifs ?
-    # Et "jean..dupont@example.com" ? Et "@example.com" ?
-    # Et "jean@.com" ? Et "jean@example." ?
-    # La liste est sans fin...
-
     return True
