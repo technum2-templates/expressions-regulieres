@@ -4,20 +4,32 @@ requires-python = ">=3.13"
 
 [manifest]
 members = [
-    "demo01-valider-email-avec-regex",
-    "demo02-valider-email-sans-regex",
+    "ex05-telephone-python",
+    "ex06-codes-produits-python",
+    "ex07-email-python",
+    "ex08-logs-python",
     "expressions-regulieres",
 ]
 
 [[package]]
-name = "demo01-valider-email-avec-regex"
+name = "ex05-telephone-python"
 version = "0.1.0"
-source = { virtual = "demo01_valider_email_avec_regex" }
+source = { virtual = "ex05_telephone_python" }
 
 [[package]]
-name = "demo02-valider-email-sans-regex"
+name = "ex06-codes-produits-python"
 version = "0.1.0"
-source = { virtual = "demo02_valider_email_sans_regex" }
+source = { virtual = "ex06_codes_produits_python" }
+
+[[package]]
+name = "ex07-email-python"
+version = "0.1.0"
+source = { virtual = "ex07_email_python" }
+
+[[package]]
+name = "ex08-logs-python"
+version = "0.1.0"
+source = { virtual = "ex08_logs_python" }
 
 [[package]]
 name = "expressions-regulieres"
